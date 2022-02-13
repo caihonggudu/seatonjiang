@@ -1,0 +1,46 @@
+name: Mirror Repository to Gitee
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Mirror Seatonjiang Repository
+      uses: Yikun/hub-mirror-action@v1.2
+      with:
+        src: github/seatonjiang
+        dst: gitee/seatonjiang
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        account_type: user
+        white_list: "aegis,nebula,kratos,gazlowe,gitmoji-vscode,openwrt-ubnt"
+        
+    - name: Mirror Vtrois Repository
+      uses: Yikun/hub-mirror-action@v1.2
+      with:
+        src: github/vtrois
+        dst: gitee/vtrois
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        account_type: org
+        
+    - name: Mirror Longnald Repository
+      uses: Yikun/hub-mirror-action@v1.2
+      with:
+        src: github/longnald
+        dst: gitee/longnald
+        dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+        dst_token: ${{ secrets.GITEE_TOKEN }}
+        account_type: org
+        
+    - name: Delete Workflow Runs
+      uses: Mattraks/delete-workflow-runs@v2
+      with:
+        token: ${{ github.token }}
+        retain_days: 1
+        keep_minimum_runs: 2
