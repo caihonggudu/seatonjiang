@@ -19,8 +19,8 @@
 <details open>
   <summary><b>⚡ 统计数据</b></summary>
   <p align="center">
-    <img height="160px" src="https://github-readme-stats.vercel.app/api?username=seatonjiang&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&hide_title=true" />
-    <img height="160px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seatonjiang&hide_title=true&show_icons=true&hide_border=true&layout=compact&langs_count=8"/>
+    <img height="150px" src="https://github-readme-stats.vercel.app/api?username=seatonjiang&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&hide_title=true" />
+    <img height="150px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=seatonjiang&hide_title=true&show_icons=true&hide_border=true&layout=compact&langs_count=8"/>
   </p>
 </details>
 
