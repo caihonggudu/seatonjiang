@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/seatonjiang/seatonjiang@main/.github/hello-world.gif" />
+  <img src=".github/hello-world.gif" />
 </p>
 
 <table align="right">
- <tr><td><a href="README.md"><img src="https://cdn.jsdelivr.net/gh/seatonjiang/seatonjiang@main/.github/us-flag.png" height="13"> English</a></td></tr>
- <tr><td><a href="README.zh-CN.md"><img src="https://cdn.jsdelivr.net/gh/seatonjiang/seatonjiang@main/.github/cn-flag.png" height="13"> 简体中文</a></td></tr>
+ <tr><td><a href="README.md"><img src=".github/us-flag.png" height="13"> English</a></td></tr>
+ <tr><td><a href="README.zh-CN.md"><img src=".github/cn-flag.png" height="13"> 简体中文</a></td></tr>
 </table>
 
 很高兴在这里见到你，这里是我存储开源代码及创造有趣东西的地方🤣
@@ -16,7 +16,7 @@
 
 ### 开源项目和 GPG 公钥
 
-<details open>
+<details>
   <summary><b>⚡ 统计数据</b></summary>
   <p align="center">
     <img height="150px" src="https://github-readme-stats.vercel.app/api?username=seatonjiang&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&hide_title=true" />
