@@ -16,7 +16,7 @@
 
 ### 开源项目和 GPG 公钥
 
-<details>
+<details open>
   <summary><b>⚡ 统计数据</b></summary>
   <p align="center">
     <img height="150px" src="https://github-readme-stats.vercel.app/api?username=seatonjiang&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&hide_title=true" />
@@ -150,3 +150,11 @@ ZKbRBMX11zXq
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 </details>
+
+#
+
+<div align="center">
+
+### 学习编程 ❤️ 改变世界
+
+</div>

@@ -16,7 +16,7 @@ It's great to see you here, this is where I open source and create things 🤣
 
 ### Projects and GPG public key
 
-<details>
+<details open>
   <summary><b>⚡ GitHub Stats</b></summary>
   <p align="center">
     <img height="150px" src="https://github-readme-stats.vercel.app/api?username=seatonjiang&show_icons=true&hide_border=true&&count_private=true&include_all_commits=true&hide_title=true" />
@@ -150,3 +150,11 @@ ZKbRBMX11zXq
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 </details>
+
+#
+
+<div align="center">
+
+### Made with ❤️ in China
+
+</div>
