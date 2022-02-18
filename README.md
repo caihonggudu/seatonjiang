@@ -150,11 +150,3 @@ ZKbRBMX11zXq
 -----END PGP PUBLIC KEY BLOCK-----
 ```
 </details>
-
-#
-
-<div align="center">
-
-###  Learn to Code ❤️ Change the World
-
-</div>
